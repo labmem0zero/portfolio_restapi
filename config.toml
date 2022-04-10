@@ -1,0 +1,14 @@
+title = "config"
+
+appName = "employees"
+appVersion = "1.0.1"
+[servers]
+[servers.localhost]
+    ip = "localhost"
+    port = "8000"
+
+[databases]
+[databases.employees]
+    host = "localhost"
+    port = "5432"
+    dbName = "postgresdb"
